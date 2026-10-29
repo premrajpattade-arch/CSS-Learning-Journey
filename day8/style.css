@@ -10,4 +10,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    perspective: 800px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    background-color: chartreuse;
+    cursor: pointer;
+    /* transform: translatex(200px); */
+    transition-property: all;
+     /* transition-property: height; */
+    /* transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* transform: rotate(30deg); */
+    /* transform: skewy(-36deg); */
+
+    transition: all 3s ease-in 2s;
+    font-size: 50px;
+    animation-name: moving;
+    animation-duration: 2s;
+   animation-iteration-count: infinite;
+   /* animation-timing-function: linear; */
+
+}
+@keyframes moving {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+.box:hover{
+     background-color: beige; 
+     /*
+    width: 300px;
+    height: 400px; */
+    /* transform: scalex(3); */
+
+    /* transform: translatex(200px); */
+    /* transform: translatez(200px); */
+    transform: rotate(360deg);
 }

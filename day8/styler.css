@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: moving ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+/* @keyframes moving {
+    from{
+        transform: rotate(0deg) translatex(100px);
+    }
+    to{
+       transform: rotate(360deg) translatex(100px);
+    }
+} */
+
+@keyframes moving {
+    from{
+        transform: rotate(0deg) translatex(100px) rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg) translatex(100px) rotate(-360deg);
+    }
+}
