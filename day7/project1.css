@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.Container{
+    background-color: aliceblue;
+    border: 1px solid;
+    font-size: 40px;
+    padding: 5px;
+    color: rgb(198, 27, 89);
+    width: 90%;
+    
+
+}
+p{
+    
+}
