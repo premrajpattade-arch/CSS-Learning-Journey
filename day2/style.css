@@ -1,0 +1,31 @@
+h1{
+    background-color: chocolate;
+    height: 340px;
+    width: 350px;
+    /*
+    border-width: 15px;
+    border-style:solid;
+    border-color: aqua;
+    */
+    border: 12px solid greenyellow;
+    padding: 10px;
+    margin: 50px;
+    border-top: 12px solid cornflowerblue;
+    /* padding: 10px 20px 30px 40px;
+     */
+     /* padding: 20px 30px;
+     
+     */
+     /*      Margin should be applicable */
+     border-radius: 30px;
+
+}
+h2{
+    background-color: deeppink;
+    border: 2px solid greenyellow;
+}
+p{
+    border: 12px solid green;
+    padding: 30px;
+    margin: 50px;
+}

@@ -1,0 +1,51 @@
+/*                                  base  on element */
+/* h1{
+
+    background-color: aqua;
+}
+ul{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+h2{
+    background-color: black;
+} */
+
+/*                            base on id 
+#first{
+    background-color: blue;
+}
+
+*/
+/*                                  base on clss
+.one{
+    background-color: blueviolet;
+}
+
+ */
+
+ /*                                   group based selection */
+ /* h1, #first, .one{
+    background-color: rgb(84, 199, 157,0.2);
+ }
+
+ h2{
+    background-color: hsl(110, 45%, 40%,0.6);
+ } */
+
+ /*                                              font */
+h1{
+    font-size: 50px;
+}
+ul{
+    font-size: 2em;
+}
+li{
+    font-size: 1em;
+}
+html{
+    font-size: 10px;
+}
+h2{
+    font-size: 3rem;
+}

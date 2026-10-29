@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+   
+}
+body{
+    background-color: black;
+}
+.Container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: bisque;
+    gap: 10px;
+    padding: 10px;
+    height: 450px;
+    width: 450px;
+}
+.first{
+    background-color: aqua;
+    text-align: center;
+    
+}
+.second{
+    background-color: aquamarine;
+    text-align: center;
+}
+.Third{
+    background-color: azure;
+    text-align: center;
+}
+.fourth{
+    background-color: blue;
+    text-align: center;
+}

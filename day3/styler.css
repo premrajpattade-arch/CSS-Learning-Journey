@@ -1,0 +1,19 @@
+h1{
+    background-color: rgb(39, 120, 120);
+    position: relative;
+    left: 400px;
+    top: 30px;
+    bottom: 20px;
+}
+h2{
+    background-color: rgb(140, 61, 61);
+    position: fixed;
+    top: 20px;
+    /* bottom: 30px; */
+}
+h3{
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.Container{
+    padding: 20px;
+    position: relative;
+}
+
+.Box{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(99, 15, 15);
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    /* animation-direction: alternate; */
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+     /* animation-fill-mode: backwards; */
+    /* abosloute posititon */
+    position: absolute;
+}
+@keyframes moving {
+    0%{
+        background-color: chocolate;
+        top: 10px;
+        left: 10px;
+
+    }
+    25%{
+       background-color: chartreuse;
+       top: 10px;
+        left: 1000px;
+    }
+    50%{
+       background-color: rgb(110, 18, 230);
+       top: 500px;
+        left: 1000px;
+    }
+    75%{
+       background-color: rgb(5, 166, 210);
+       top: 500px;
+        left: 10px;
+    }
+    100%{
+        background-color: chocolate;
+        top: 10px;
+        left: 10px;
+
+    }
+    
+}
